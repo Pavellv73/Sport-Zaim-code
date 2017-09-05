@@ -1,0 +1,83 @@
+footer
+  width 100%
+  height auto
+  box-shadow 0 0 10px rgba(40, 115, 137, 0.4)
+  background-color #ffc200
+
+  .footer-content
+    width 100%
+    height auto
+    padding 13px 0
+    display flex
+    display -webkit-flex
+    justify-content center
+    align-items center
+    flex-direction column
+    @media (min-width 768px)
+      flex-direction row
+      justify-content space-between
+      padding-top 13px
+      padding-bottom 10px
+
+    .map-polit
+      width 100%
+      height auto
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      flex-direction column
+      margin-bottom 11px
+      @media (min-width 768px)
+        width auto
+        justify-content flex-start
+        align-items flex-start
+        margin-bottom 0
+
+      a
+        color #29272c
+        font-family "GillSansLightC"
+        font-size 14px
+        font-weight 900
+        letter-spacing 1px
+        text-decoration underline
+        transition all 0.2s ease
+        &:hover
+          color #a4a4a4
+
+
+      .politic
+        opacity 0.5
+        color #29272c
+        font-family "Proxima Nova Lt"
+        font-size 14px
+        font-weight 400
+        letter-spacing 1px
+        text-decoration none
+        transition all 0.2s ease
+        &:hover
+          opacity 1.0
+
+
+#politic
+  width 100%
+  display none
+  height 80%
+  text-align left
+  padding 10px 20px
+  box-sizing border-box
+
+  h2
+    color #29272c
+    margin-bottom 20px
+    font-family "Proxima Nova Lt"
+    font-size 19px
+    font-weight 900
+    text-align center
+
+  p
+    color #29272c
+    margin-bottom 16px
+    font-family "Proxima Nova Lt"
+    font-size 19px
+    font-weight 400

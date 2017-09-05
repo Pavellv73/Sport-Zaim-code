@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="28px" viewBox="0 0 48 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>21+</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="15.6166943%" x2="-10.2455242%" y2="87.3777366%" id="linearGradient-1">
+            <stop stop-color="#FFC200" offset="0%"></stop>
+            <stop stop-color="#FB531D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Info-Sport" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sport-info1-1280px-" transform="translate(-748.000000, -282.000000)" fill="url(#linearGradient-1)">
+            <g id="3b-copy" transform="translate(0.000000, 71.000000)">
+                <g id="Group-16" transform="translate(725.000000, 182.000000)">
+                    <path d="M41.0753333,57 L41.0753333,54.92 L27.0353333,54.92 C34.7553333,48.68 40.9553333,43.32 40.9553333,37.44 C40.9553333,32.16 36.4753333,29.92 32.5553333,29.92 C28.7953333,29.92 25.5553333,31.48 23.6753333,34.04 L25.2353333,35.48 C26.6753333,33.44 29.2353333,32 32.5553333,32 C35.4753333,32 38.6353333,33.6 38.6353333,37.44 C38.6353333,42.6 32.5553333,47.8 23.4753333,55.12 L23.4753333,57 L41.0753333,57 Z M54.6264444,57 L54.6264444,30.32 L52.5464444,30.32 L46.6664444,36.52 L48.0664444,38 L52.3464444,33.44 L52.3464444,57 L54.6264444,57 Z M70.4575556,49.848 L70.4575556,47.952 L66.1615556,47.952 L66.1615556,43.272 L64.0735556,43.272 L64.0735556,47.952 L59.7535556,47.952 L59.7535556,49.848 L64.0735556,49.848 L64.0735556,54.72 L66.1615556,54.72 L66.1615556,49.848 L70.4575556,49.848 Z" id="21+"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

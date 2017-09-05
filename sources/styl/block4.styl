@@ -1,0 +1,255 @@
+.block4
+  width 100%
+  height auto
+  background-image url("img/bg3.png")
+  background-repeat repeat
+  background-size 100%
+  background-position center center
+  position relative
+  &:after
+    content " "
+    width 51%
+    height 70%
+    background-image url("img/after.png")
+    background-repeat no-repeat
+    background-size 42%
+    background-position left
+    position absolute
+    top -28%
+    z-index 0
+    left 0
+    @media (min-width 768px)
+      width 21%
+      height 89%
+
+  .block4-content
+    width 100%
+    height auto
+    padding-top 37px
+    padding-bottom 38px
+    @media (min-width 768px)
+      padding-top 65px
+      padding-bottom 56px
+    @media (min-width 1280px)
+      padding-top 80px
+
+    .block4-head
+      width 100%
+      height auto
+      margin-bottom 32px
+      @media (min-width 768px)
+        margin-bottom 48px
+
+      h2
+        font-family "Proxima Nova Bold"
+        font-size 24px
+        font-weight 900
+        text-transform uppercase
+        color #fca70b
+        margin-bottom 6px
+
+        span
+          color #29272c
+          letter-spacing 1px
+        @media (min-width 768px)
+          font-size 30px
+          line-height 31px
+          font-weight 900
+          letter-spacing 1px
+
+      p
+        color #29272c
+        font-family "Proxima Nova Lt"
+        font-size 18px
+        font-weight 300
+        letter-spacing 1px
+        @media (min-width 768px)
+          font-size 22px
+          font-weight 300
+          letter-spacing 1px
+          line-height 23px
+
+
+    .reviews-slider
+      width 100%
+      height auto
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      position relative
+      @media (min-width 768px)
+        height 400px
+
+      .slick-prev
+        width 31px
+        height 31px
+        background-image url("img/prev.svg")
+        background-size 100%
+        background-repeat no-repeat
+        position absolute
+        left -8px
+        z-index 3
+        &:before
+          display none
+        @media (min-width 768px)
+          width 45px
+          height 45px
+        @media (min-width 1280px)
+          width 64px
+          height 64px
+          left -86px
+
+      .slick-next
+        width 31px
+        height 31px
+        background-image url("img/next.svg")
+        background-size 100%
+        background-repeat no-repeat
+        position absolute
+        right -8px
+        z-index 3
+        &:before
+          display none
+        @media (min-width 768px)
+          width 45px
+          height 45px
+        @media (min-width 1280px)
+          width 64px
+          height 64px
+          right -86px
+
+
+
+      .slick-slider
+        width 240px
+        height auto
+        @media (min-width 768px)
+          width 592px
+          height 400px
+          box-shadow none
+        @media (min-width 1280px)
+          width 1030px
+
+        .slick-list
+          @media (min-width 1280px)
+            width 1030px
+
+          .slick-slide
+            width 220px
+            height 258px
+            border-radius 2px
+            background-color #ffffff
+            border-bottom 4px solid #ffc200
+            box-shadow 0 3px 16px rgba(0, 0, 0, 0.1)
+            margin 0 8px
+            @media (min-width 768px)
+              margin 0 8px
+              width 48%
+              height 360px
+              box-shadow 0 3px 16px rgba(0, 0, 0, 0.1)
+            @media (min-width 1280px)
+              margin 0 23px
+
+
+            .slide-img
+              width 100%
+              height auto
+              overflow hidden
+              display flex
+              display -webkit-flex
+              justify-content flex-start
+              align-items flex-start
+              padding-top 26px
+              padding-bottom 26px
+              box-sizing border-box
+              position relative
+              padding-left 16px
+
+              .img-block
+                width 60px
+                height 60px
+                z-index 2
+                box-shadow 0 2px 12px rgba(0, 0, 0, 0.13)
+                overflow hidden
+                @media (min-width 768px)
+                  width 70px
+                  height 60px
+
+
+              img
+                width 100%
+                height auto
+
+              .head-text
+
+                .name-block
+                  display flex
+                  display -webkit-flex
+                  justify-content center
+                  align-items center
+                  position absolute
+                  top 32px
+                  left 47px
+                  z-index 1
+                  width 176px
+                  height 25px
+                  border-radius 2px
+                  background-image linear-gradient(270deg, #ffc200 0%, #fb531d 100%)
+                  @media (min-width 768px)
+                    top 26px
+                    left 75px
+                    width 220px
+                    height 34px
+
+                  h3
+                    letter-spacing 1px
+                    text-align center
+                    color #1f1d21
+                    font-family "Proxima Nova Lt"
+                    font-size 14px
+                    line-height 15px
+                    font-weight 700
+                    text-transform uppercase
+                    @media (min-width 768px)
+                      top 52px
+                      font-size 19px
+                      line-height 20px
+                      font-weight 600
+                      letter-spacing 1px
+
+                .sity
+                  margin-top 34px
+                  color #1f1d21
+                  font-family "Proxima Nova Lt"
+                  font-size 12px
+                  font-weight 300
+                  letter-spacing 1px
+                  @media (min-width 768px)
+                    font-size 16px
+                    margin-top 51px
+                    margin-left 15px
+
+
+            .slide-text
+              width 100%
+              height auto
+              padding-bottom 27px
+              box-sizing border-box
+              padding-right 29px
+              padding-left 20px
+
+              p
+                font-family "GillSansLightC"
+                font-size 14px
+                font-weight 300
+                letter-spacing 1px
+                text-align left
+                line-height 16px
+                @media (min-width 768px)
+                  font-size 17px
+                  font-weight 300
+                  letter-spacing 1px
+                  line-height 18px
+
+

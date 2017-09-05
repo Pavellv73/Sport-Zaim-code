@@ -1,0 +1,192 @@
+h()
+  columns = 0 1 2 3 4
+  for col in columns
+    .h-{col}
+      width (col/columns[-1]*100) + '%'
+      flex-basis auto
+      box-sizing border-box
+      display block
+      padding-left 5px
+      padding-right 5px
+  for col in columns
+    .h-offset-{col}
+      margin-left: (col/columns[-1]*100) + '%'
+
+t()
+  columns = 0 1 2 3 4
+  for col in columns
+    .t-{col}
+      width (col/columns[-1]*100) + '%'
+      flex-basis auto
+      box-sizing border-box
+      display block
+      padding-left 11px
+      padding-right 11px
+  for col in columns
+    .t-offset-{col}
+      margin-left: (col/columns[-1]*100) + '%'
+
+d()
+  columns = 0 1 2 3 4
+  for col in columns
+    .d-{col}
+      width (col/columns[-1]*100) + '%'
+      flex-basis auto
+      box-sizing border-box
+      display block
+      padding-left 20px
+      padding-right 20px
+  for col in columns
+    .d-offset-{col}
+      margin-left: (col/columns[-1]*100) + '%'
+
+d-screen = 1280px
+t-screen = 768px
+h-screen = 320px
+
+.cnt
+  box-sizing border-box
+  padding 0 19px
+  width: 100%
+  @media(min-width: t-screen)
+    padding 0 33px
+    width 100%
+  @media(min-width: d-screen)
+    padding 0 147px
+    margin 0 auto
+
+.row
+  max-width 1000px
+  flex-basis 100%
+  margin 0 auto
+  flex-grow 1
+  display flex
+  display -webkit-flex
+  flex-flow column
+  justify-content flex-start
+  align-content flex-start
+
+
+.lk-button
+  width 163px
+  height 32px
+  box-shadow 0 0 10px rgba(40, 115, 137, 0.4)
+  border-radius 4px
+  background-color #29272c
+  padding 5px 10px
+  box-sizing border-box
+  display flex
+  display -webkit-flex
+  justify-content space-between
+  align-items center
+  flex-direction row
+  border none
+  transition all 0.2s ease
+  cursor pointer
+  margin-bottom 5px
+  &:hover
+    background-color #38353c
+
+
+  img
+    width 22px
+    height 22px
+    margin-right 8px
+
+  p
+    color #ffc200
+    font-family "GillSansC"
+    font-size 14px
+    font-weight 400
+    letter-spacing 1px
+    padding-top 5px
+
+
+////---PLACEHOLDERS---////
+input[type='text']::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+input[type='text']::-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+input[type='text']:-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+input[type='text']:-ms-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+input[type='text']:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input[type='text']:focus::-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input[type='text']:focus:-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input[type='text']:focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+textarea::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+textarea::-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+textarea:-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+textarea:-ms-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+textarea:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus::-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus:-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}

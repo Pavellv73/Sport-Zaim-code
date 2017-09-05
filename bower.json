@@ -1,0 +1,23 @@
+{
+  "name": "Fort",
+  "authors": [
+    "Lyson Pavel"
+  ],
+  "description": "",
+  "keywords": [
+    ""
+  ],
+  "license": "none",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower"
+  ],
+  "dependencies": {
+    "jquery": "~1.11.3",
+    "jquery.inputmask": "3.*",
+    "fancybox": "~2.1.5",
+    "owl.carousel": "^2.1.5",
+    "jquery-mousewheel": "^3.1.13"
+  }
+}

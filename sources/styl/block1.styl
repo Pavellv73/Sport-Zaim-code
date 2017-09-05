@@ -1,0 +1,483 @@
+.block1
+  width 100%
+  height auto
+  background linear-gradient(105deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 80%, rgba(254,163,6,1) 80%, rgba(254,163,6,1) 100%)
+  -webkit-box-shadow: 0 1px 13px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 1px 13px -2px rgba(0,0,0,0.75);
+  box-shadow: 0 1px 13px -2px rgba(0,0,0,0.75);
+  margin-bottom 13px
+  position relative
+  z-index 1
+  overflow hidden
+  @media (min-width 768px)
+    background linear-gradient(105deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 68%, rgba(254,163,6,1) 68%, rgba(254,163,6,1) 100%)
+
+
+  @media (min-width 1240px)
+    background-image  url("img/sport.png"), linear-gradient(105deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 45%, rgba(254,163,6,1) 45%, rgba(254,163,6,1) 100%)
+    &:before
+      content ""
+      width 894px
+      height 663px
+      background-image  url("img/sport.png")
+      background-position top right
+      background-size 100%
+      background-repeat no-repeat
+      position absolute
+      top 105px
+      right calc(50vw - 350px)
+
+
+  .block1-content
+    width 100%
+    height auto
+    display flex
+    display -webkit-flex
+    justify-content center
+    align-items center
+    flex-direction column
+    padding-top 52px
+    @media (min-width 768px)
+      display flex
+      justify-content flex-start
+      align-items flex-start
+      flex-direction column
+    @media (min-width 1240px)
+      flex-direction row
+      justify-content space-between
+
+
+    .block1-head
+      width 100%
+      height auto
+      margin-bottom 37px
+      margin-top 59px
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      flex-direction column
+      @media (min-width 768px)
+        width 100%
+        margin-bottom 60px
+      @media (min-width 1240px)
+        margin-top 183px
+        justify-content center
+        align-items flex-start
+        flex-direction column
+
+
+
+      h1
+        color #29272c
+        font-family "Proxima Nova Lt"
+        font-size 20px
+        font-weight 400
+        letter-spacing 1px
+        text-transform uppercase
+        margin-bottom 4px
+        @media (min-width 1240px)
+          margin-left 7px
+          margin-bottom 8px
+
+      p
+        font-family "Proxima Nova Bold"
+        font-size 28px
+        font-weight 700
+        text-transform uppercase
+        color #29272c
+        letter-spacing 1px
+        @media (min-width 1240px)
+          font-size 36px
+          font-weight 700
+          text-transform uppercase
+
+        span
+          color #fca70b
+          letter-spacing 1px
+
+      .time-block
+        width 100%
+        height auto
+        margin-top 32px
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        flex-direction column
+        @media (min-width 768px)
+          width auto
+
+        p
+          color #29272c
+          font-family "Proxima Nova Lt"
+          font-size 18px
+          font-weight 400
+          text-transform uppercase
+          letter-spacing 1px
+          text-align center
+          margin-bottom 16px
+
+        span
+          width 137px
+          height 32px
+          border-radius 2px
+          background-image linear-gradient(270deg, #ffc200 0%, #fb531d 100%)
+          -webkit-transform skew(-20deg)
+          -moz-transform skew(-20deg)
+          -o-transform skew(-20deg)
+          padding 4px 20px
+          box-sizing border-box
+
+          p
+            color #29272c
+            font-family "Proxima Nova Lt"
+            font-weight 600
+            letter-spacing 1px
+            font-size 20px
+            -webkit-transform skew(20deg)
+            -moz-transform skew(20deg)
+            -o-transform skew(20deg)
+
+
+    .calculator-block
+      width 100%
+      height auto
+      z-index 1
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      flex-direction column
+      @media (min-width 768px)
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        flex-direction column
+      @media (min-width 1240px)
+        width 50%
+        margin-top 317px
+
+      .button-block
+        width 282px
+        height auto
+        display flex
+        display -webkit-flex
+        justify-content space-between
+        align-items center
+        flex-direction row
+        padding-top 20px
+        padding-bottom 10px
+        padding-left 5px
+        padding-right 5px
+        box-sizing border-box
+        border-radius 4px 4px 0px 0px
+        background-color #29272c
+        @media (min-width 768px)
+          width 460px
+          padding-left 25px
+          padding-right 25px
+        @media (min-width 1240px)
+          height 48px
+          margin-bottom 0
+
+
+        a
+          color #ffffff
+          opacity 0.5
+          font-family "Proxima Nova Lt"
+          font-size 14px
+          font-weight 700
+          line-height 17px
+          text-transform uppercase
+          letter-spacing 1px
+          text-align center
+          @media (min-width 768px)
+            br
+              display none
+
+        .link-active
+          opacity 1
+          color #ffffff
+          font-family "Proxima Nova Lt"
+          font-size 14px
+          font-weight 700
+          line-height 17px
+          text-transform uppercase
+          letter-spacing 1px
+          text-align center
+
+        .switch-but
+          width 54px
+          height 24px
+          box-shadow inset 0 1px 4px rgba(0, 0, 0, 0.78)
+          border-radius 100px
+          background-color #a4a4a4
+          opacity 0.87
+          transition all 0.1s ease
+          cursor pointer
+
+          .switch-simple
+            width 24px
+            height 24px
+            box-shadow 0 2px 4px rgba(0, 0, 0, 0.5)
+            background-color #ffffff
+            border-radius 100%
+
+      .calculator
+        width 282px
+        height auto
+        border-radius 0 0 4px 4px
+        background-color #29272c
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        flex-direction column
+        @media (min-width 768px)
+          width 460px
+
+        .one-calc, .two-calc
+          width 100%
+          height auto
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction column
+          padding 32px 42px
+          box-sizing border-box
+          @media (min-width 768px)
+            padding 20px 25px
+
+
+          .summ-blocks
+            width 100%
+            height auto
+            @media (min-width 768px)
+              display flex
+              display -webkit-flex
+              justify-content space-between
+              align-items center
+              flex-direction row
+
+            .summ-block
+              width auto
+              height auto
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items center
+              flex-direction column
+              margin-bottom 41px
+              @media (min-width 768px)
+                width 48%
+                align-items flex-start
+
+              .one-sum
+                width 170px
+                height 26px
+                margin-bottom 13px
+
+                p
+                  color #feb709
+                  font-family "Proxima Nova Lt"
+                  font-size 15px
+                  font-weight 400
+                  text-transform uppercase
+                  text-align center
+                  @media (min-width 768px)
+                    text-align left
+
+              p
+                width 100%
+                color #feb709
+                font-family "Proxima Nova Lt"
+                font-size 30px
+                font-weight 100
+                letter-spacing 1px
+                text-align center
+                @media (min-width 768px)
+                  text-align left
+
+                span.cur
+                  font-size 16px
+                  font-weight 400
+                  letter-spacing 1px
+
+              .swit
+                width 95%
+
+                input[type=range]
+                  height: 2px
+                  -webkit-appearance none
+                  margin 10px 0
+                  width 100%
+
+                input[type=range]:focus
+                  outline none
+
+                input[type=range]::-webkit-slider-thumb
+                  box-shadow 0px 0px 0px #000000
+                  border 0px solid #2497E3
+                  height 12px
+                  width 12px
+                  border-radius 25px
+                  background #FFFFFF
+                  cursor pointer
+                  -webkit-appearance none
+
+                input[type=range]::-moz-range-thumb
+                  box-shadow 0px 0px 0px #000000
+                  border 0px solid #2497E3
+                  height 12px
+                  width 12px
+                  border-radius 25px
+                  background #FFFFFF
+                  cursor pointer
+
+                input[type=range]::-ms-thumb
+                  margin-top 1px
+                  box-shadow 0px 0px 0px #000000
+                  border 0px solid #2497E3
+                  height 12px
+                  width 12px
+                  border-radius 25px
+                  background #FFFFFF
+                  cursor pointer
+
+
+
+          .content-row
+            width 100%
+            height auto
+            @media (min-width 768px)
+              display flex
+              display -webkit-flex
+              justify-content space-between
+              align-items flex-start
+              flex-direction row
+
+            .end-blocks
+              width 100%
+              height auto
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items center
+              flex-direction column
+              margin-bottom 19px
+              @media (min-width 768px)
+                width 48%
+                margin-bottom 0
+
+
+              .end-block
+                width 100%
+                height auto
+                display flex
+                display -webkit-flex
+                justify-content space-between
+                align-items center
+                flex-direction row
+                @media (min-width 768px)
+                  margin-bottom 14px
+
+                p
+                  color #ffc200
+                  font-family "Proxima Nova Lt"
+                  font-size 16px
+                  font-weight 300
+                  letter-spacing 1px
+
+                span
+                  color #ffc200
+                  font-family "Proxima Nova Lt"
+                  font-size 15px
+                  font-weight 600
+                  letter-spacing 1px
+
+
+            .good-block
+              width 100%
+              height auto
+              @media (min-width 768px)
+                width 48%
+
+
+              .gb
+                width 100%
+                height auto
+                display flex
+                display -webkit-flex
+                justify-content space-between
+                align-items center
+                flex-direction row
+                margin-bottom 24px
+
+                p
+                  color #ffc200
+                  font-family "Proxima Nova Lt"
+                  font-size 16px
+                  font-weight 300
+                  letter-spacing 1px
+                  line-height 17px
+
+                span
+                  color #ffc200
+                  font-family "Proxima Nova Lt"
+                  font-size 36px
+                  font-weight 600
+                  letter-spacing 1px
+
+              .button-red
+                width 196px
+                height 40px
+                border-radius 3px
+                border 3px solid #ffc200
+                background-color #29272c
+                color #ffffff
+                font-family "Proxima Nova Lt"
+                font-size 15px
+                font-weight 600
+                letter-spacing 1px
+                transition all 0.2s ease
+                cursor pointer
+                &:hover
+                  background-color #ffc200
+                  color #29272c
+
+
+      .red-text
+        color #ec4f4f
+        font-family "Proxima Nova Lt"
+        font-size 14px
+        font-weight 300
+        letter-spacing 1px
+        text-align center
+        margin-top 16px
+        margin-bottom 17px
+        @media (min-width 768px)
+          margin-top 16px
+          br
+            display none
+
+
+.calc-hidden
+  display none!important
+
+.switch-left
+  display flex
+  display -webkit-flex
+  justify-content flex-start
+  align-items center
+  transition all 0.1s ease
+
+
+.switch-right
+  display flex
+  display -webkit-flex
+  justify-content flex-end
+  align-items center
+  transition all 0.1s ease

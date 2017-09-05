@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="SvgjsSvg1000"
+   version="1.1"
+   width="64"
+   height="64"
+   viewBox="0 0 64 64"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="prev.svg">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="824"
+     inkscape:window-height="480"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="3.6875"
+     inkscape:cx="39.476433"
+     inkscape:cy="32"
+     inkscape:window-x="2442"
+     inkscape:window-y="215"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="SvgjsSvg1000" />
+  <title
+     id="title3">prev</title>
+  <desc
+     id="desc5">Created with Avocode.</desc>
+  <defs
+     id="SvgjsDefs1001">
+    <clipPath
+       id="SvgjsClipPath1009">
+      <path
+         id="SvgjsPath1008"
+         d="M76 2404C76 2386.32689 90.32689 2372 108 2372C125.67311000000001 2372 140 2386.32689 140 2404C140 2421.67311 125.67311 2436 108 2436C90.32688999999999 2436 76 2421.67311 76 2404Z "
+         fill="#ffffff" />
+    </clipPath>
+  </defs>
+  <path
+     id="SvgjsPath1007"
+     d="m 76,2404 c 0,-17.6731 14.32689,-32 32,-32 17.67311,0 32,14.3269 32,32 0,17.6731 -14.32689,32 -32,32 -17.67311,0 -32,-14.3269 -32,-32 z"
+     stroke-miterlimit="50"
+     clip-path="url(#SvgjsClipPath1009)"
+     transform="matrix(-0.88727456,0.46124165,-0.46124165,-0.88727456,1236.6506,2115.1939)"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;fill-opacity:0;stroke:#6e8898;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:50;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     id="SvgjsPath1010"
+     d="M 36.93399,43.932032 24.808536,32.058811 36.681756,19.933357"
+     stroke-miterlimit="50"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;fill-opacity:0;stroke:#8b9399;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:50;stroke-dashoffset:0;stroke-opacity:1" />
+</svg>
